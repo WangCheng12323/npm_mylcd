@@ -1,0 +1,18 @@
+{
+  "_inCache": true,
+  "_location": "/lcd_demo",
+  "description": "Node.js binding of 'my lcd' LCD screen driver for Raspberry-Pi",
+  "gypfile": true,
+  "keywords": [
+    "Raspberry-Pi",
+    "LCD"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "my_lcd",
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "version": "0.1.1"
+}
