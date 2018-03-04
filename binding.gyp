@@ -1,10 +1,10 @@
 {
     "targets": [
         {
-            "target_name": "mylcd_rpi",
+            "target_name": "my_lcd",
             "sources": [
-                "obj/main.c"],
-            "include_dirs": ["<!(node -e \"require('nan')\")"],
+                "obj/ddmain.cc"],
+            "include_dirs": [ "<!(node -e \"require('nan')\")" ],
             'libraries': [
                 '-L/usr/local/lib', '-lwiringPi'
             ]
